@@ -1,0 +1,25 @@
+<?xml	version="1.0"	encoding="UTF-8"?>
+<widget	xmlns="http://www.w3.org/ns/widgets"
+								xmlns:gap="http://phonegap.com/ns/1.0"
+								id="fatec"
+								version="1.0.0">
+				<name>
+								App restaurante
+				</name>
+				<description>
+								Menu do restaurante.
+				</description>
+				<author>
+								Gustavo Giordan
+				</author>
+   				<preference name="permissions" value="none" />
+			    <preference name="orientation" value="portrait" />
+			    <preference name="fullscreen" value="true" />
+
+			    <preference name="android-minSdkVersion" value="16" />
+			    <platform name="android" />
+
+			    <icon src="icon.png" />
+			    <plugin name="cordova-plugin-splashscreen" />
+			    <splash src="splash.png" />
+</widget>
